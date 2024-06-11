@@ -15,6 +15,17 @@ This project explores the impact of age on insurance costs through the applicati
 - `sklearn.metrics`
 - `joblib`
 
+## Dataset
+The dataset used in the insurance cost analysis is `insurance.csv` which contains information about individuals' demographics, lifestyle, and corresponding insurance charges. The dataset consists of 1,338 entries and 7 columns. The columns include:
+
+`age`: The age of the individual.
+`sex`: The gender of the individual (male/female).
+`bmi`: Body mass index, a measure of body fat based on height and weight.
+`children`: The number of children/dependents covered by the insurance.
+`smoker`: Whether the individual is a smoker (yes/no).
+`region`: The residential region of the individual in the US (northeast, northwest, southeast, southwest).
+`charges`: The medical insurance charges billed by the insurance company.
+
 ## Key Steps and Importance
 
 ### Data Exploration
