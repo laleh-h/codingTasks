@@ -24,4 +24,4 @@ The dataset used in the diabetes progression analysis contains information about
 - `BMI`: Body mass index, a measure of body fat based on height and weight.
 - `BP`: Average blood pressure.
 - `S1-S6`: Six blood serum measurements.
-- `PROGRESSION`: The target variable indicating the one-year progression of diabetes.
+- `PROGRESSION`: The target variable indicating the one-year progression of diabetes. It refers to the change or advancement in the severity or stage of diabetes over a one-year period. It is a measure of how much the condition of diabetes has worsened or improved for an individual within that timeframe.
