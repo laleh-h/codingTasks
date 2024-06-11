@@ -54,3 +54,6 @@ The dataset used in the insurance cost analysis is `insurance.csv` which contain
 
 ### Model Persistence
 - **Functionality:** Persists the trained model using `joblib`, enabling future predictions without retraining.  Model persistence is critical for deploying the model in real-world applications, allowing for efficient and consistent predictions on new data.
+
+## Run the model
+Open and run the `predict_insurance.ipynb` notebook. Follow the prompts and enter an age when requested. The model will then return the predicted insurance cost based on the age provided.
