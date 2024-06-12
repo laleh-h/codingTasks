@@ -1,7 +1,9 @@
 # AMAZON's Product reviews Sentiment: A Natural Language Processing Approach (NLP)
 
 ## Description
-The project is designed to analyze and classify the sentiment of customer reviews on Amazon products. By leveraging natural language processing (NLP) techniques and sentiment analysis algorithms, the model can determine whether a review expresses a positive, negative, or neutral sentiment. This model provides valuable insights into customer opinions, helping businesses understand consumer satisfaction and areas for improvement.
+Sentiment analysis, also known as opinion mining, is a crucial technique in natural language processing (NLP) that helps in understanding and extracting the sentiment or emotional tone behind a piece of text. 
+
+The project is designed to analyze and classify the sentiment of customer reviews on Amazon products. By leveraging NLP techniques and sentiment analysis algorithms, the model can determine whether a review expresses a positive, negative, or neutral sentiment. This model provides valuable insights into customer opinions, helping businesses understand consumer satisfaction and areas for improvement.
 
 ## Required Libraries
 - `pandas` 
@@ -58,3 +60,6 @@ The dataset used in the Amazon Product Reviews Sentiment Model contains 34,660 c
 - **Sentiment Classification:**
 Based on the polarity score, classify the sentiment of the text as 'Positive', 'Negative', or 'Neutral'.
 Return the sentiment classification as a string.
+
+### 3. Model Evaluation:
+The accuracy of the model is evaluated manually by reviewing a sample of the predicted sentiments against the review texts.
