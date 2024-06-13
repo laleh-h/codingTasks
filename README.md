@@ -28,6 +28,18 @@ This repository is a compilation of various coding tasks and projects undertaken
     
 4. [Acknowledgments](#acknowledgments)
 
+## Clone the repository
+```
+git clone https://github.com/laleh-h/codingTasks.git
+cd codingTasks
+```
+
+
+
+## Install Dependencies
+```
+pip install -r requirements.txt
+```
 
 ## Acknowledgments
 - Thanks to the instructors and peers at the [HyperionDev](https://www.hyperiondev.com/)'s Data Science Bootcamp for their guidance and support.

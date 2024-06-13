@@ -63,3 +63,11 @@ Return the sentiment classification as a string.
 
 ### 3. Model Evaluation:
 The accuracy of the model is evaluated manually by reviewing a sample of the predicted sentiments against the review texts.
+
+## Installation
+To get started with the projects in this repository, follow these steps:
+git clone https://github.com/laleh-h/codingTasks.git
+cd codingTasks
+
+
+
