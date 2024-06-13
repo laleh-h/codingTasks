@@ -25,7 +25,7 @@ The dataset used in the project consists of 167 enteries of various socio-econom
 - `Inflation`: The annual inflation rate.
 - `Life Expectancy`: The average number of years a person is expected to live.
 - `Total Fertility`: The average number of children born to a woman over her lifetime.
-- `GDP`: Gross Domestic Product per capita.
+- `GDPP`: Gross Domestic Product per capita.
 - `Population`: The total population of the country.
 
 ## Key Steps and Importance
