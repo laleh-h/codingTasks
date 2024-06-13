@@ -66,8 +66,25 @@ The accuracy of the model is evaluated manually by reviewing a sample of the pre
 
 ## Installation
 To get started with the projects in this repository, follow these steps:
+
+- Clone the repository:
+```
 git clone https://github.com/laleh-h/codingTasks.git
-cd codingTasks
+```
 
+Install dependencies:
+Ensure you have Python 3.x and pip installed. Install the required libraries using:
 
+```
+pip install -r requirements.txt
+```
+
+## Usage
+- Navigate to the project directory:
+```
+cd codingTasks/Amazon\ Reviews\ Sentiment
+```
+
+- Run the Jupyter Notebook:
+Launch Jupyter Notebook and open the `amazon_product_reviews.ipynb`` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.
 
