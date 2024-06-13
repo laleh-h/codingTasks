@@ -14,7 +14,19 @@ This project utilizes K-means clustering, an unsupervised machine learning algor
 - `sklearn.metrics`
 
 ## Dataset
+The dataset used in the project consists of 167 enteries of various socio-economic and health indicators for multiple countries. The goal of this dataset is to provide a comprehensive view of the factors influencing the development status of each country. Below is a detailed description of the dataset and its features:
 
+- `Country`: The name of the country.
+- `Child Mortality`: Number of deaths per 1,000 children under the age of 5.
+- `Exports`: Value of exports as a percentage of GDP.
+- `Health`: Total expenditure on health as a percentage of GDP.
+- `Imports`: Value of imports as a percentage of GDP.
+- `Income`: Net income per person.
+- `Inflation`: The annual inflation rate.
+- `Life Expectancy`: The average number of years a person is expected to live.
+- `Total Fertility`: The average number of children born to a woman over her lifetime.
+- `GDP`: Gross Domestic Product per capita.
+- `Population`: The total population of the country.
 
 ## Key Steps and Importance
 
