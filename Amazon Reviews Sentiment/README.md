@@ -14,6 +14,32 @@ The project is designed to analyze and classify the sentiment of customer review
 - `spacytextblob.spacytextblob`
 - `textblob`
 
+## Installation
+To get started with the projects in this repository, follow these steps:
+
+- Clone the repository:
+```
+git clone https://github.com/laleh-h/codingTasks.git
+```
+
+Install dependencies:
+Ensure you have Python 3.x and pip installed. Install the required libraries using:
+
+```
+pip install -r requirements.txt
+```
+
+## Usage
+- Navigate to the project directory:
+```
+cd codingTasks/Amazon\ Reviews\ Sentiment
+```
+
+- Run the Jupyter Notebook:
+
+Launch Jupyter Notebook and open the `amazon_product_reviews.ipynb` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.
+
+
 ## Dataset
 The dataset used in the Amazon Product Reviews Sentiment Model contains 34,660 consumer reviews for 48 Amazon products across 41 categories. Although it does not include explicit sentiment labels, it provides comprehensive information about each review and the products being reviewed. The dataset includes the following columns:
 
@@ -63,29 +89,3 @@ Return the sentiment classification as a string.
 
 ### 3. Model Evaluation:
 The accuracy of the model is evaluated manually by reviewing a sample of the predicted sentiments against the review texts.
-
-## Installation
-To get started with the projects in this repository, follow these steps:
-
-- Clone the repository:
-```
-git clone https://github.com/laleh-h/codingTasks.git
-```
-
-Install dependencies:
-Ensure you have Python 3.x and pip installed. Install the required libraries using:
-
-```
-pip install -r requirements.txt
-```
-
-## Usage
-- Navigate to the project directory:
-```
-cd codingTasks/Amazon\ Reviews\ Sentiment
-```
-
-- Run the Jupyter Notebook:
-
-Launch Jupyter Notebook and open the `amazon_product_reviews.ipynb` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.
-

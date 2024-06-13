@@ -15,6 +15,31 @@ This project develops a multiple linear regression model to predict the one-year
 - `sklearn.metrics`
 - `joblib`
 
+## Installation
+To get started with the projects in this repository, follow these steps:
+
+- Clone the repository:
+```
+git clone https://github.com/laleh-h/codingTasks.git
+```
+
+Install dependencies:
+Ensure you have Python 3.x and pip installed. Install the required libraries using:
+
+```
+pip install -r requirements.txt
+```
+
+## Usage
+- Navigate to the project directory:
+```
+cd codingTasks/Diabetes\ Progression\ Prediction/
+```
+
+- Run the Jupyter Notebook:
+
+Launch Jupyter Notebook and open the `diabetes_regression.ipynb` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.
+
 ## Dataset
 
 The dataset used in the diabetes progression analysis contains information about individuals' demographics, health metrics, and diabetes progression measurements. The dataset includes the following columns:
@@ -57,28 +82,3 @@ Persists the trained model using `joblib`, enabling future predictions without r
 
 ## Run the model
 Open and run the `predict_diabetes.ipynb` notebook. Follow the prompts and enter an age when requested. The model will then return the predicted insurance cost based on the age provided.
-
-## Installation
-To get started with the projects in this repository, follow these steps:
-
-- Clone the repository:
-```
-git clone https://github.com/laleh-h/codingTasks.git
-```
-
-Install dependencies:
-Ensure you have Python 3.x and pip installed. Install the required libraries using:
-
-```
-pip install -r requirements.txt
-```
-
-## Usage
-- Navigate to the project directory:
-```
-cd codingTasks/Diabetes\ Progression\ Prediction/
-```
-
-- Run the Jupyter Notebook:
-
-Launch Jupyter Notebook and open the `diabetes_regression.ipynb` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.

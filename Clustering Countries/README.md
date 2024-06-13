@@ -13,6 +13,31 @@ This project utilizes K-means clustering, an unsupervised machine learning algor
 - `sklearn.cluster`
 - `sklearn.metrics`
 
+## Installation
+To get started with the projects in this repository, follow these steps:
+
+- Clone the repository:
+```
+git clone https://github.com/laleh-h/codingTasks.git
+```
+
+Install dependencies:
+Ensure you have Python 3.x and pip installed. Install the required libraries using:
+
+```
+pip install -r requirements.txt
+```
+
+## Usage
+- Navigate to the project directory:
+```
+cd codingTasks/Clustering\ Countries/
+```
+
+- Run the Jupyter Notebook:
+
+Launch Jupyter Notebook and open the `countries_clustering.ipynb` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.
+
 ## Dataset
 The dataset used in the project consists of 167 enteries of various socio-economic and health indicators for multiple countries. The goal of this dataset is to provide a comprehensive view of the factors influencing the development status of each country. Below is a detailed description of the dataset and its features:
 
@@ -54,28 +79,3 @@ Assigned descriptive names to each cluster based on the socio-economic and healt
 Cluster 0: 'Developing'
 Cluster 1: 'Developed'
 Cluster 2: 'Least Developed'
-
-## Installation
-To get started with the projects in this repository, follow these steps:
-
-- Clone the repository:
-```
-git clone https://github.com/laleh-h/codingTasks.git
-```
-
-Install dependencies:
-Ensure you have Python 3.x and pip installed. Install the required libraries using:
-
-```
-pip install -r requirements.txt
-```
-
-## Usage
-- Navigate to the project directory:
-```
-cd codingTasks/Clustering\ Countries/
-```
-
-- Run the Jupyter Notebook:
-
-Launch Jupyter Notebook and open the `countries_clustering.ipynb` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.

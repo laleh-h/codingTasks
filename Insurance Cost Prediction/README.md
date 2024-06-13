@@ -15,6 +15,31 @@ This project explores the impact of age on insurance costs through the applicati
 - `sklearn.metrics`
 - `joblib`
 
+## Installation
+To get started with the projects in this repository, follow these steps:
+
+- Clone the repository:
+```
+git clone https://github.com/laleh-h/codingTasks.git
+```
+
+Install dependencies:
+Ensure you have Python 3.x and pip installed. Install the required libraries using:
+
+```
+pip install -r requirements.txt
+```
+
+## Usage
+- Navigate to the project directory:
+```
+cd codingTasks/Insurance\ Cost\ Prediction/
+```
+
+- Run the Jupyter Notebook:
+
+Launch Jupyter Notebook and open the `insuramce_regression.ipynb` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.
+
 ## Dataset
 The dataset used in the insurance cost analysis is `insurance.csv` which contains information about individuals' demographics, lifestyle, and corresponding insurance charges. The dataset consists of 1,338 entries and 7 columns. The columns include:
 
@@ -57,28 +82,3 @@ Persists the trained model using `joblib`, enabling future predictions without r
 
 ## Run the model
 Open and run the `predict_insurance.ipynb` notebook. Follow the prompts and enter an age when requested. The model will then return the predicted insurance cost based on the age provided.
-
-## Installation
-To get started with the projects in this repository, follow these steps:
-
-- Clone the repository:
-```
-git clone https://github.com/laleh-h/codingTasks.git
-```
-
-Install dependencies:
-Ensure you have Python 3.x and pip installed. Install the required libraries using:
-
-```
-pip install -r requirements.txt
-```
-
-## Usage
-- Navigate to the project directory:
-```
-cd codingTasks/Insurance\ Cost\ Prediction/
-```
-
-- Run the Jupyter Notebook:
-
-Launch Jupyter Notebook and open the `insuramce_regression.ipynb` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.
