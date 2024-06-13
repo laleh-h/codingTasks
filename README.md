@@ -30,6 +30,6 @@ This repository is a compilation of various coding tasks and projects undertaken
 
 
 ## Acknowledgments
-- Thanks to the instructors and peers at the HyperionDev's Data Science Bootcamp for their guidance and support.
+- Thanks to the instructors and peers at the [HyperionDev](https://www.hyperiondev.com/)'s Data Science Bootcamp for their guidance and support.
 - Special thanks to the creators of the datasets used in these projects.
 - Gratitude to the open-source community for providing valuable tools and resources.
