@@ -26,15 +26,15 @@ This repository is a compilation of various coding tasks and projects undertaken
     - [Iris](https://github.com/laleh-h/codingTasks/blob/main/Iris%20Logistic%20Regression%20Classifier/README.md##Dataset)
     - [Titanic](https://github.com/laleh-h/codingTasks/blob/main/Passenger%20Survival%20Classifier%20(Decision%20Tree)/README.md##Dataset)
     
-4. [Acknowledgments](#acknowledgments)
+4. [Acknowledgments](#Acknowledgments)
+5. [Clone the repository](##Clonetherepository)
+6. [Install Dependencies](##InstallDependencies)
 
 ## Clone the repository
 ```
 git clone https://github.com/laleh-h/codingTasks.git
 cd codingTasks
 ```
-
-
 
 ## Install Dependencies
 ```
