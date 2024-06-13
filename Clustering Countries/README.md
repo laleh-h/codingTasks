@@ -1,7 +1,7 @@
-# Project Name
+# Categorising Countries: A K-means Clustering Approach
 
 ## Description
-
+This project utilizes K-means clustering, an unsupervised machine learning algorithm, to group countries based on various socio-economic and health factors. The goal is to classify countries into different clusters that reflect their development status. By analyzing these clusters, we can gain insights into the similarities and differences among countries regarding their development and identify patterns that can inform policy and decision-making.
 
 ## Required Libraries
 - `pandas`
@@ -10,10 +10,8 @@
 - `seaborn`
 - `scipy.stats`
 - `sklearn.preprocessing`
-- `sklearn.model_selection`
-- `sklearn.linear_model`
+- `sklearn.cluster`
 - `sklearn.metrics`
-- `joblib`
 
 ## Dataset
 
@@ -21,29 +19,26 @@
 ## Key Steps and Importance
 
 ### 1. Data Exploration
-
-
+Initial Analysis: Conducted an initial examination of the dataset to understand its structure, distribution, and key statistics. This included summarizing the data, checking for missing values, and identifying potential outliers.
 ### 2. Data Engineering
-
-
+Winsorization: Applied winsorization to limit extreme values in the dataset, reducing the influence of outliers without completely removing them.
+Scaling: Standardized the data using techniques like z-score normalization or min-max scaling to ensure all features contribute equally to the clustering process.
 ### 3. Correlation Matrix
-
-
-### 4. Train-Test Split
-
-
-### 5. Model Training with Grid Search
-
-### 6. Model Evaluation
-
-
-### 7. Visualization of Results
-
-
-### 8. Error Plotting
-
-
-### 9. Model Persistence
-
-
-## Run the model
+Correlation Analysis: Created a correlation matrix to assess the relationships between different socio-economic and health factors. This helped identify highly correlated features, which can be useful for understanding the underlying structure of the data and for feature selection.
+### 4. Feature Selection
+Selecting Relevant Features: Based on the correlation analysis and domain knowledge, selected the most relevant features that significantly contribute to determining a country's development status. This step ensured that the model focused on the most informative variables.
+### 5. Selecting K (Number of Clusters)
+Elbow Method: Used the Elbow method to determine the optimal number of clusters. Plotted the within-cluster sum of squares (WCSS) against the number of clusters and looked for an 'elbow point' where the rate of decrease slows down.
+Silhouette Analysis: Performed Silhouette analysis to validate the optimal number of clusters by measuring how similar an object is to its own cluster compared to other clusters.
+### 6. Model Fitting
+K-Means Algorithm: Applied the K-means clustering algorithm to the preprocessed dataset using the selected number of clusters. Iteratively assigned data points to clusters and updated the cluster centroids until convergence.
+### 7. Adding Clusters to the Original Dataset
+Cluster Labels: Added the cluster labels obtained from the K-means model to the original dataset. This step allowed for the examination of the clustering results in the context of the original data.
+Analysis of Clusters: Analyzed the characteristics of each cluster by examining the distribution of features within each group and identifying common traits.
+### 8. Visualization of Clusters
+Scatter Plots: Created scatter plots to visualize the clusters in two-dimensional space, using different feature pairs (gdpp vs child_mort and gdpp vs inflation) to highlight the separation and cohesion of clusters.
+### 9. Clusters Mapping
+Assigned descriptive names to each cluster based on the socio-economic and health characteristics identified by the model. For example:
+Cluster 0: 'Developing'
+Cluster 1: 'Developed'
+Cluster 2: 'Least Developed'
