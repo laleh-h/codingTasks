@@ -31,11 +31,14 @@ This project utilizes a Decision Tree Classifier to predict passenger survival o
 ## Key Steps and Importance
 
 ### 1. Data Exploration
-Basic data exploration such as shape and values are performed.
+Initial exploration of the Titanic dataset was conducted to understand its structure and contents. This included examining the shape of the dataset and reviewing sample records to gain insights into the available features.
 
 ### 2. Data Preprocessing
-Handling missing values, encoding categorical variables, and feature scaling.
+Prior to modeling, thorough data preprocessing steps were implemented:
 
+- Handling Missing Values: Missing data points were identified and addressed using appropriate strategies such as imputation.
+- Encoding Categorical Variables: Categorical features like sex and embarked port were encoded to numerical values suitable for machine learning algorithms.
+- Feature Scaling: Continuous features were standardized to ensure all variables were on a similar scale, preventing any particular feature from dominating the model training process.
 
 ### 4. Data Splitting
 To effectively train, validate, and test the model's performance, the dataset was split into three distinct sets:
