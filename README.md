@@ -7,18 +7,20 @@ This repository is a compilation of various coding tasks and projects undertaken
 
 ## Table of Contents
 
-1. [Overview](## Overview)
+1. [Overview](##Overview)
 2. [Project Descriptions](#project-descriptions)
     - [Amazon Product Review Sentiments](#amazon-product-review-sentiments)
     - [Insurance Cost Prediction using Age](#insurance-cost-prediction-using-age)
     - [Iris Classifier: Logistic Regression](#iris-classifier-logistic-regression)
 3. [Dataset Descriptions](#dataset-descriptions)
-    - [Amazon Dataset](https://github.com/laleh-h/codingTasks/tree/main/Amazon%20Reviews%20Sentiment/README.md##Dataset)
-    - [Country Dataset](https://github.com/laleh-h/codingTasks/blob/main/Clustering%20Countries/README.md##Dataset)
-    - [Iris Dataset](#iris-dataset)
-    - [Titanic Dataset](#iris-dataset)
-    - [Diabetes Dataset](#iris-dataset)
-    - [Insurance Dataset](#iris-dataset)
+    - [Amazon Reviews](https://github.com/laleh-h/codingTasks/tree/main/Amazon%20Reviews%20Sentiment/README.md##Dataset)
+    - [Country](https://github.com/laleh-h/codingTasks/blob/main/Clustering%20Countries/README.md##Dataset)
+    - [Diabetes](https://github.com/laleh-h/codingTasks/blob/main/Diabetes%20Progression%20Prediction/README.md##Dataset)
+    - [MNIST](https://github.com/laleh-h/codingTasks/blob/main/Image%20Classification/digit_image_classifier.ipynb##Dataset)
+    - [Insurance](https://github.com/laleh-h/codingTasks/blob/main/Insurance%20Cost%20Prediction/README.md##Dataset)
+    - [Iris](https://github.com/laleh-h/codingTasks/blob/main/Iris%20Logistic%20Regression%20Classifier/README.md##Dataset)
+    - [Titanic](https://github.com/laleh-h/codingTasks/blob/main/Passenger%20Survival%20Classifier%20(Decision%20Tree)/README.md##Dataset)
+    
 4. [Acknowledgments](#acknowledgments)
 
 
