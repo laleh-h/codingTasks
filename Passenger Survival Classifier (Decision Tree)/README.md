@@ -58,3 +58,28 @@ Evaluation of the decision tree classifier involved assessing its performance me
 
 ### 7. Visualization of Results
 Visual representation of the decision tree was generated using plot_tree from `sklearn.tree`. This visualization offered insights into the hierarchical structure of the decision-making process employed by the classifier, highlighting key splits and decision nodes.
+
+## Installation
+To get started with the projects in this repository, follow these steps:
+
+- Clone the repository:
+```
+git clone https://github.com/laleh-h/codingTasks.git
+```
+
+Install dependencies:
+Ensure you have Python 3.x and pip installed. Install the required libraries using:
+
+```
+pip install -r requirements.txt
+```
+
+## Usage
+- Navigate to the project directory:
+```
+cd codingTasks/Passenger\ Survival\ Classifier\ \(Decision\ Tree\)/
+```
+
+- Run the Jupyter Notebook:
+
+Launch Jupyter Notebook and open the `decision_tree_titanic.ipynb` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.

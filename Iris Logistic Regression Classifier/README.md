@@ -49,3 +49,28 @@ Evaluation of the logistic regression classifier involved assessing its performa
 
 - Confusion Matrix: Providing a detailed breakdown of true positive, false positive, true negative, and false negative predictions.
 - Accuracy Score: Calculated to gauge the overall correctness of the classifier's predictions on the test set.
+
+## Installation
+To get started with the projects in this repository, follow these steps:
+
+- Clone the repository:
+```
+git clone https://github.com/laleh-h/codingTasks.git
+```
+
+Install dependencies:
+Ensure you have Python 3.x and pip installed. Install the required libraries using:
+
+```
+pip install -r requirements.txt
+```
+
+## Usage
+- Navigate to the project directory:
+```
+cd codingTasks/Iris\ Logistic\ Regression\ Classifier/
+```
+
+- Run the Jupyter Notebook:
+
+Launch Jupyter Notebook and open the `iris_logistic_regression.ipynb` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.
