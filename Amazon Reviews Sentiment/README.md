@@ -86,5 +86,6 @@ cd codingTasks/Amazon\ Reviews\ Sentiment
 ```
 
 - Run the Jupyter Notebook:
-Launch Jupyter Notebook and open the `amazon_product_reviews.ipynb`` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.
+
+Launch Jupyter Notebook and open the `amazon_product_reviews.ipynb` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.
 
