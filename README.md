@@ -8,7 +8,7 @@ This repository is a compilation of various coding tasks and projects undertaken
 ## Table of Contents
 
 1. [Overview](##Overview)
-2. [Project Descriptions](#project-descriptions)
+2. [Projects](#projects)
     - [Amazon Product Review Sentiments](https://github.com/laleh-h/codingTasks/tree/main/Amazon%20Reviews%20Sentiment/README.md##Description)
     - [Countries Clustering](https://github.com/laleh-h/codingTasks/blob/main/Clustering%20Countries/README.md##Description)
     - [Diabetes Progression Prediction](https://github.com/laleh-h/codingTasks/blob/main/Diabetes%20Progression%20Prediction/README.md##Description)
