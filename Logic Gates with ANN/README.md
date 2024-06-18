@@ -47,6 +47,7 @@ This project does not utilize any external data sources. Instead, it generates a
 
 3. **Sigmoid Function**:
    - A reminder of the sigmoid function and its mathematical representation:
+     
      $$
      \sigma = \frac{1}{1 + e^{-x}}
      $$

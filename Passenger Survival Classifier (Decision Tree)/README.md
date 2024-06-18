@@ -40,7 +40,6 @@ cd codingTasks/Passenger\ Survival\ Classifier\ \(Decision\ Tree\)/
 Launch Jupyter Notebook and open the `decision_tree_titanic.ipynb` file. Execute each cell to see the data preprocessing steps, model training, evaluation metrics, and visualizations.
 
 ## Dataset
-
 - `Survived`: Survival (0 = No, 1 = Yes)
 - `Pclass`: Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)
 - `Name`: Passenger's name
